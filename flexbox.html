@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Bond">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox</title>
+    <style>
+        *{margin: 0;padding: 0;color:white;font-size: 30px; text-align: center;}
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .container > div{width: 200px; height: 80px;}
+        .um{background-color: darkblue;}
+        .dois{background-color: darkcyan;}
+        .tres{background-color: darkgoldenrod;}
+        .quatro{background-color: darkgreen;}
+        *{margin: 5px;padding: 10px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="um">1</div>
+        <div class="dois">2</div>
+        <div class="tres">3</div>
+        <div class="quatro">4</div>
+    </div>
+</body>
+</html>

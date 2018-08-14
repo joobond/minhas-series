@@ -1,0 +1,31 @@
+.series{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap; 
+}
+.titulo-serie{
+    font-size: 27px;
+    text-align: center;
+}
+.genero-serie{
+    font-size: 16px;
+    color:#A9A4A4;
+    text-align: center;
+}
+.capa-serie{
+    border-radius: 5px;
+    display:block;
+    margin: 7px auto;
+}
+.btn-leiamais{
+    background-color: #C0392B;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display:block;
+    border:0;
+    margin:0 auto;
+    width: 100%;
+}
