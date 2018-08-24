@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Bond">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+        .tabela{
+            padding: 10px;
+            border: 1px #000 solid;
+            border-collapse: collapse;
+            width: 80%;
+            margin:  0 auto; /* zera em cima e em baixo e automatico dos lados*/
+        }
+        .tabela th, .tabela td{
+            border: 1px #000 solid;
+            padding: 10px;
+        }
+        .tabela th{
+            background-color: rgb(47, 47, 161);
+            color: white;
+        }
+        .tabela td{
+            text-align: center;
+        }
+        .tabela td:nth-child(2){
+            text-align: left;
+        }
+        .tabela td:nth-child(1){
+            font-weight: bold;
+        }
+        .tabela tr:nth-child(odd){
+            background-color:  rgba(139, 139, 201, 0.63)
+        }
+        .tabela tr:hover{
+            background-color:  rgba(43, 43, 233, 0.61);
+            color:white;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabela de Preços</h1>
+    <table class="tabela">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sabão em pó</td>
+            <td>R$ 6,00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sabão em barra</td>
+            <td>R$ 2,00</td>
+        </tr>
+        <tr>
+                <td>3</td>
+                <td>Catuaba</td>
+                <td>R$ 3,00</td>
+        </tr>
+        <tr>
+                <td>4</td>
+                <td>Cerveja</td>
+                <td>R$ 2,50</td>
+        </tr>
+    </table>
+</body>
+</html>
