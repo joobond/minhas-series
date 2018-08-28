@@ -1,0 +1,41 @@
+.campo{ 
+   padding:10px 0 10px 0;
+   font-size: 20px;
+}
+input{
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    border:1px #00000048 solid;
+    border-radius: 5px;
+}
+.input-radio{
+    width: auto;
+}
+.descricao-campo{
+    display: block;
+    box-sizing: border-box;
+    padding: 0 0 5px 0;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+.btn-enviar{
+    background-color: darkgreen;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    display:block;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-enviar:hover{
+    background-color: rgba(0, 100, 0, 0.637);
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;;
+    padding: 20px;
+    border: 1px #00000048 solid;
+    border-radius: 5px;
+    height: 150px;
+}
